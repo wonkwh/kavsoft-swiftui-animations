@@ -2,12 +2,12 @@
 //  HeroAnimationUITests.swift
 //  HeroAnimationUITests
 //
-//  Created by recherst on 2021/10/14.
+//  Created by ncn on 7/26/24.
 //
 
 import XCTest
 
-class HeroAnimationUITests: XCTestCase {
+final class HeroAnimationUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -27,7 +27,6 @@ class HeroAnimationUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
 
-        // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 

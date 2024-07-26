@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Home()
-            .edgesIgnoringSafeArea(.top)
-    }
+  var body: some View {
+    Home()
+      .edgesIgnoringSafeArea(.top)
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+  static var previews: some View {
+    ContentView()
+  }
 }
